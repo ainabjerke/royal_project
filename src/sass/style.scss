@@ -1,0 +1,19 @@
+/*** *** *** BASE SECTION *** *** ***/
+@import "./base/reset";
+@import "./base/typography";
+
+/*** *** *** COMPONENTS SECTION *** *** ***/
+@import "./components/loader";
+
+/*** *** *** LAYOUT SECTION *** *** ***/
+@import "./layout/navigation";
+@import "./layout/footer";
+
+/*** *** *** PAGES SECTION *** *** ***/
+@import "./pages/homeHeroBanner";
+@import "./pages/productCard";
+@import "./pages/collage";
+@import "./pages/newsletter";
+@import "./pages/productDetail";
+@import "./pages/contact";
+@import "./pages/login";

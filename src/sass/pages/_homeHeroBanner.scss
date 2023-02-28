@@ -1,0 +1,78 @@
+.jumbotron {
+  max-width: 100%;
+  margin: 2rem auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__img {
+    background-image: url("../../../public/images/royal_banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 656px;
+    margin-top: -11px;
+    width: 100%;
+  }
+
+  &__text {
+    padding: 2rem;
+    text-align: center;
+    position: absolute;
+    color: white;
+    margin-left: -338px;
+    @media screen and (max-width: 768px) {
+      margin-left: -27%;
+    }
+  }
+
+  &__text-title {
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+
+  &__logo-icon:before {
+    content: "";
+    display: block;
+    width: 77px;
+    height: 1.5px;
+    background: #c0b3a2;
+    left: 0;
+    top: 50%;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 2px;
+  }
+
+  &__logo-icon:after {
+    content: "";
+    display: block;
+    width: 77px;
+    height: 1.5px;
+    background: #c0b3a2;
+    left: 0;
+    top: 50%;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 180px;
+  }
+
+  &__text-btn {
+    margin: 2rem auto 0rem auto;
+    padding: 0.5rem 1rem;
+    max-width: 150px;
+    //   background-color: black;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid #c0b3a2;
+    transition: 0.3s;
+    &:hover {
+      border: 1px solid black;
+      background-color: #c0b3a2;
+      color: black;
+    }
+  }
+}

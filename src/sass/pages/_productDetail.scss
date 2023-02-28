@@ -1,0 +1,113 @@
+.product-detail {
+  &__container {
+    background-color: white;
+  }
+
+  &__img-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    @media screen and (min-width: 768px) {
+      justify-content: start;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  &__text-container {
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+      margin: 0rem;
+    }
+  }
+
+  &__logo-icon {
+    text-align: center;
+    margin-bottom: -83px;
+  }
+
+  &__title {
+    margin-top: 117px;
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+
+  &__price {
+    font-size: 1.3em;
+    margin-top: 25px;
+  }
+
+  &__description {
+    margin-bottom: auto;
+    font-size: 16px;
+    margin-top: 26px;
+  }
+
+  &__btn {
+    border-radius: 0;
+    background: #c0b3a2;
+    color: #001b31;
+    font-weight: 500;
+    border: solid #c0b3a2;
+    width: 100%;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    padding: 13px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    // margin-top: -120px;
+    cursor: pointer;
+    position: relative;
+    // margin-top: -92px;
+    &:hover {
+      filter: brightness(110%) !important;
+      background-color: #c0b3a2 !important;
+      color: #001b31;
+      border: solid #c0b3a2;
+    }
+  }
+
+  &__icon {
+    margin-top: 1rem;
+    font-size: larger;
+    color: #bf308b;
+    font-size: 23px;
+    margin-left: 80%;
+  }
+  &__tag-container {
+    position: absolute;
+    left: 0px;
+    background-color: #bf308b;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    margin-top: -13px;
+    z-index: 9999;
+    margin-left: -13px;
+  }
+}
+
+//DO SOMETHING WITH THIS ISSUE!!!!!!!!!!!!!!!!!! EFFETCT THE PRODUCT ON HOMEPAGE
+.product__container {
+  margin: 2rem 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.breadcrumb li a {
+  color: #c0b3a2;
+  text-decoration: none;
+}
+
+.breadcrumb-item.active {
+  color: white !important;
+}

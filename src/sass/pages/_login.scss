@@ -1,0 +1,31 @@
+.loginForm {
+  position: relative;
+  padding: 82px;
+  background: white !important;
+
+  &__btn {
+    margin-top: 2rem;
+    border-radius: 0px;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: #10202d !important;
+    &:hover {
+      color: white;
+      background-color: #10202d;
+      filter: brightness(130%) !important;
+    }
+  }
+
+  &__icon {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-radius: 0px;
+  }
+  &__input {
+    border-radius: 0rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+}

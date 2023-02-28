@@ -1,0 +1,27 @@
+body {
+  background-color: #10202d;
+}
+
+.form-control,
+.btn {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.form-control,
+.form-select {
+  border-radius: 0;
+}
+
+.contactForm__required-message {
+  color: #e0dab8 !important;
+}
+
+.form-control {
+  background-color: #efedea !important;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
