@@ -1,4 +1,4 @@
-# Royal is e-commerce site for men and women watches
+# Royal is an e-commerce site for men and women watches
 JS Framework course assignment
 
 ![image](https://i.ibb.co/JRp7Kqs/royal-webpage-image.jpg)
