@@ -39,6 +39,7 @@ Some features:
 - [React.js](https://reactjs.org/)
 - [Bootstrap](https://getbootstrap.com)
 - [WordPress](https://wordpress.com/)
+- [SASS](https://sass-lang.com)
 
 ## Getting Started
 
