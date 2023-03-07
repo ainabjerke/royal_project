@@ -15,7 +15,7 @@ JS Framework course assignment
 
 ## Description
 
-This project was part of my last year of studies. It is an e-commerce site for watches with both a front-end and an admin page built with WordPress hosting the products.
+This course assignment project was part of my last year of studies. It is an e-commerce site for watches with both a front-end and an admin page built with WordPress hosting the products.
 
 Some features:
 - React framework is used to create this project 
@@ -23,15 +23,15 @@ Some features:
   Price
 - Rest is used for the API calls
 - Reusable components
-- Home page displays an array of items, and each single item is retrieved by image, title, id and price of  
+- Home page displays an array of product items, and each single product item is retrieved by image, title, id and price of  
   each product.
-- A favorite path/page will display all the item current in the favorite array
-- Detail page gets the parameter from the URL and used it in an API call to fetch the images, title, price,  
+- A favorite path/page will display all the selected produtct 92item current in the favorite array
+- Product detail page gets the parameter from the URL and used it in an API call to fetch the images, title, price,  
   and description of each products
 - Contact page the following requirements: 
-                - The form makes a request to WordPress API with JWT plugin installed. If the login is successful 
-                 redirect the user to the admin route
-                - If the login is unsuccessful display a message above the from
+  The form makes a request to WordPress API with JWT plugin installed. If the login is successful 
+  redirect the user to the admin route.2
+  If the login is unsuccessful display a message above the from
 
 
 ## Built With
@@ -40,11 +40,15 @@ Some features:
 - [Bootstrap](https://getbootstrap.com)
 - [WordPress](https://wordpress.com/)
 
-## Getting Started using the hosted application link in Netlify
+## Getting Started
+
+### Getting Started using the hosted application link in Netlify
 
 URL: https://tangerine-cocada-27a8d8.netlify.app/
 
-You can now play around on the website. Viewing products and adding products. 
+You can now play around on the website. Viewing products and adding products to the favorite page.
+You can also log in as an admin. 
+If you want further information about this please contact me.
 
 
 ### How to start the project locally
@@ -59,7 +63,7 @@ You can now play around on the website. Viewing products and adding products.
 
 ## Contributing
 
-This was made as a school project during my last years of studies. It was done independently by myself.
+This was made as a school crourse assignment project during my last years of studies. It was done independently by myself.
 
 ## Contact
 
