@@ -5,7 +5,6 @@ JS Framework course assignment
 
 
 
-
 # Table of Contents
 
 - [Description](#description)
@@ -16,39 +15,37 @@ JS Framework course assignment
 
 ## Description
 
-This is a Front-end for the Social Media API provided by Noroff. This project was done as my final project exam during my front-end studies at Noroff.
+This project was part of my last year of studies. It is an e-commerce site for watches with both a front-end and an admin page built with WordPress hosting the products.
 
 Some features:
-- Register and login with user authentication
-- A registered user has the possibility to create, edit and delete a post
-- A post can be created with and without an image
-- A user can react and comment on any post
-- A user can follow and unfollow other users
-- A user can update and edit their own avatar and banner on their profile   
-  page
-- A user can view a list of profiles and posts
-- A user can visit a single profile and see all associated
-- A user can log out
+- React framework is used to create this project 
+- Separate WordPress installation with JWT plugin as API to host product image, title, description and 
+  Price
+- Rest is used for the API calls
+- Reusable components
+- Home page displays an array of items, and each single item is retrieved by image, title, id and price of  
+  each product.
+- A favorite path/page will display all the item current in the favorite array
+- Detail page gets the parameter from the URL and used it in an API call to fetch the images, title, price,  
+  and description of each products
+- Contact page the following requirements: 
+                - The form makes a request to WordPress API with JWT plugin installed. If the login is successful 
+                 redirect the user to the admin route
+                - If the login is unsuccessful display a message above the from
+
 
 ## Built With
 
 - [React.js](https://reactjs.org/)
 - [Bootstrap](https://getbootstrap.com)
+- [WordPress](https://wordpress.com/)
 
 ## Getting Started using the hosted application link in Netlify
 
-URL: https://phenomenal-nasturtium-709b0d.netlify.app
+URL: https://tangerine-cocada-27a8d8.netlify.app/
 
-Start with registering a user. You will get an error messages if you have done something wrong. Only users with a @stud.noroff.no email are allowed to register. 
-When testing this site, you can create a random user email but is must end with @stud.noroff.no. Here is an example: 
-mytestuser@stud.noroff.no
+You can now play around on the website. Viewing products and adding products. 
 
-If you are struggling use this test user to log in directly:
-username: usertest1
-e-mail address: usertest1@stud.noroff.no
-password:Pass12345!
-
-It is also important to be aware that supported image use on this page is: jpg, png and jpeg. It's controlled through regex and the user will be informed if a none valid image format is being used.
 
 ### How to start the project locally
 
@@ -62,7 +59,7 @@ It is also important to be aware that supported image use on this page is: jpg, 
 
 ## Contributing
 
-This was made for my final exam with an API provided by the school. It was done independently by myself.
+This was made as a school project during my last years of studies. It was done independently by myself.
 
 ## Contact
 
@@ -70,4 +67,7 @@ The best way to reach me would be through the following sites:
 
 [My Portfolio](https://www.abjerke.com/)
 
-[My LinkedIn page]( https://www.linkedin.com/in/aina-bjerke-a2b114172/),,,,
+[My LinkedIn page]( https://www.linkedin.com/in/aina-bjerke-a2b114172/)
+
+
+
