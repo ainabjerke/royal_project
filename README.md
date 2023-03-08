@@ -36,6 +36,7 @@ Some features:
 
 ## Built With
 
+- [Wordpress](https://wordpress.com/)
 - [React.js](https://reactjs.org/)
 - [Hookform](https://react-hook-form.com)
 - [Router](https://reactrouter.com/en/main)
