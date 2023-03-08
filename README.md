@@ -37,8 +37,10 @@ Some features:
 ## Built With
 
 - [React.js](https://reactjs.org/)
+- [Hookform](https://react-hook-form.com)
+- [Router](https://reactrouter.com/en/main)
+- [Yup](https://www.npmjs.com/package/yup)
 - [Bootstrap](https://getbootstrap.com)
-- [WordPress](https://wordpress.com/)
 - [SASS](https://sass-lang.com)
 
 ## Getting Started
