@@ -19,18 +19,15 @@ This course assignment project was part of my last year of studies. It is an e-c
 
 Some features:
 - React framework is used to create this project 
-- Separate WordPress installation with JWT plugin as API to host product image, title, description and 
-  Price
+- Separate WordPress installation with JWT plugin as API to host product image, title, description and price
 - Rest is used for the API calls
 - Reusable components
-- Home page displays an array of product items, and each single product item is retrieved by image, title, id and price of  
-  each product.
-- A favorite path/page will display all the selected produtct 92item current in the favorite array
-- Product detail page gets the parameter from the URL and used it in an API call to fetch the images, title, price,  
-  and description of each products
+- Home page displays an array of product items, and each single product item is retrieved by image, title, id and price of each product.
+- A favorite path/page will display all the selected produtct item current in the favorite array
+- Product detail page gets the parameter from the URL and used it in an API call to fetch the images, title, price and description of each products
 - Contact page the following requirements: 
   The form makes a request to WordPress API with JWT plugin installed. If the login is successful 
-  redirect the user to the admin route.2
+  redirect the user to the admin route.
   If the login is unsuccessful display a message above the from
 
 
